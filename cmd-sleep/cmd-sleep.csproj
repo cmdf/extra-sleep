@@ -7,8 +7,8 @@
     <ProjectGuid>{E2A55660-FDF0-494A-A0E7-1026CC50202E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>cmd_sleep</RootNamespace>
-    <AssemblyName>cmd-sleep</AssemblyName>
+    <RootNamespace>orez.osleep</RootNamespace>
+    <AssemblyName>osleep</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="oParams.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
