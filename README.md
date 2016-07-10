@@ -26,8 +26,3 @@ Sleep for specified time in Windows Console.
 :: sleep for 2 days 8 hours
 > osleep -d 2 -h 8
 ```
-
-
-## license
-
-Do you have a Poké ball? That's enough!
