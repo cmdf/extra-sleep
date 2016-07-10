@@ -1,4 +1,4 @@
-﻿namespace cmd_sleep {
+﻿namespace orez.osleep {
 	class oParams {
 
 		// data

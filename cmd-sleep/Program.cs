@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace cmd_sleep {
+namespace orez.osleep {
 	class Program {
 		static void Main(string[] args) {
 			oParams p = new oParams(args);
