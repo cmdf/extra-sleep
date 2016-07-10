@@ -6,7 +6,11 @@ Sleep for specified time in Windows Console.
 ## usage
 
 ```batch
-> osleep [-d|--days <days>] [-h|--hours <hours>] [-m|--minutes <minutes>] [-s|--seconds <seconds>] [<milliseconds>]
+> osleep [options] [<milliseconds>]
+:: [-d|--days <days>]
+:: [-h|--hours <hours>]
+:: [-m|--minutes <minutes>]
+:: [-s|--seconds <seconds>]
 
 :: [] -> optional argument
 :: <> -> argument value
