@@ -30,11 +30,13 @@
 		/// </summary>
 		/// <param name="args">Input arguments.</param>
 		public oParams(string[] args) {
+			double ms = 0;
 			for (int i = 0; i < args.Length; i++) {
 				switch (args[i]) {
 					case "-d":
 					case "--days":
-						int.TryParse(args[++i], out Days);
+						double.TryParse(args[++i], out v);
+						Days = (int)v;
 						break;
 					case "-h":
 					case "--hours":
