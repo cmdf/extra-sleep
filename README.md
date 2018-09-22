@@ -1,5 +1,5 @@
 Sleep for specified time in Windows Console.
-> 1. Download [exe file](https://github.com/winp/extra-sleep/releases/download/1.0.0/esleep.exe).
+> 1. Download [exe file](https://github.com/cmdf/extra-sleep/releases/download/1.0.0/esleep.exe).
 > 2. Copy to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
@@ -27,4 +27,4 @@ Sleep for specified time in Windows Console.
 ```
 
 
-[![Merferry](https://i.imgur.com/BAmouMb.jpg)](https://merferry.github.io)
+[![cmdf](https://i.imgur.com/BAmouMb.jpg)](https://cmdf.github.io)
