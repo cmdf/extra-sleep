@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace orez.osleep {
+namespace App {
 	class Program {
 
 		// static method
@@ -11,7 +11,7 @@ namespace orez.osleep {
 		/// </summary>
 		/// <param name="args">Input arguments.</param>
 		static void Main(string[] args) {
-			oParams p = new oParams(args);
+			Params p = new Params(args);
 			TimeSpan t = new TimeSpan(p.Days, p.Hours, p.Minutes, p.Seconds, p.Milliseconds);
 			Thread.Sleep(t);
 		}

@@ -1,12 +1,11 @@
-# osleep
-
 Sleep for specified time in Windows Console.
+> 1. Download [exe file](https://raw.githubusercontent.com/winp/extra-bel/master/ecd.cmd).
+> 2. Copy to `C:\Program_Files\Scripts`.
+> 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
-
-## usage
 
 ```batch
-> osleep [options] [<milliseconds>]
+> esleep [options] [<milliseconds>]
 :: [-d|--days <days>]
 :: [-h|--hours <hours>]
 :: [-m|--minutes <minutes>]
@@ -18,11 +17,11 @@ Sleep for specified time in Windows Console.
 
 ```batch
 :: sleep for 250 milliseconds
-> osleep 250
+> esleep 250
 
 :: sleep for 8 seconds
-> osleep 8000
+> esleep 8000
 
 :: sleep for 2 days 8 hours
-> osleep -d 2 -h 8
+> esleep -d 2 -h 8
 ```
