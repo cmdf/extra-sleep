@@ -30,7 +30,7 @@
 		/// </summary>
 		/// <param name="args">Input arguments.</param>
 		public Params(string[] args) {
-			double ms = 0;
+			double v = 0;
 			for (int i = 0; i < args.Length; i++) {
 				switch (args[i]) {
 					case "-d":
